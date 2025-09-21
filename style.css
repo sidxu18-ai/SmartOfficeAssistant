@@ -1,0 +1,99 @@
+/* Original theme with purple-blue gradient */
+.stApp {
+    background: linear-gradient(135deg, #6B46C1 0%, #2C5282 100%) !important;
+    color: white;
+    min-height: 100vh !important;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.main .block-container {
+    background: transparent !important;
+}
+
+.stApp * {
+    color: #333333 !important;
+}
+
+/* Main header styling */
+.main-header {
+    text-align: center;
+    padding: 2rem 0;
+    margin-bottom: 2rem;
+}
+
+.main-header h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #1565C0 !important;
+    margin-bottom: 0.5rem;
+}
+
+/* Input styling */
+.stTextInput input,
+.stTextArea textarea {
+    border: 2px solid #4CAF50 !important;
+    border-radius: 8px !important;
+    padding: 0.75rem !important;
+}
+
+/* Button styling */
+.stButton > button {
+    background: #4CAF50 !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 25px !important;
+    padding: 0.75rem 2rem !important;
+    font-weight: 600 !important;
+    transition: all 0.3s ease !important;
+}
+
+.stButton > button:hover {
+    transform: translateY(-2px) !important;
+    box-shadow: 0 4px 12px rgba(76, 175, 80, 0.2) !important;
+}
+
+/* Attachment styling */
+.attachment-section {
+    margin-top: 1rem;
+    border-top: 1px solid #e2e8f0;
+    padding-top: 1rem;
+}
+
+.attachment-label {
+    color: #1565C0 !important;
+    font-weight: 600 !important;
+    font-size: 1.1rem !important;
+}
+
+/* File uploader */
+.stFileUploader > div {
+    border: 2px dashed #4CAF50 !important;
+    border-radius: 8px !important;
+    padding: 1rem !important;
+    background: rgba(76, 175, 80, 0.05) !important;
+}
+
+.stFileUploader > div:hover {
+    border-color: #2E7D32 !important;
+}
+
+/* Info boxes */
+.stInfo {
+    background: rgba(21, 101, 192, 0.1) !important;
+    border: 1px solid #1565C0 !important;
+}
+
+.stSuccess {
+    background: rgba(76, 175, 80, 0.1) !important;
+    border: 1px solid #4CAF50 !important;
+}
+
+.stWarning {
+    background: rgba(255, 152, 0, 0.1) !important;
+    border: 1px solid #FF9800 !important;
+}
+
+.stError {
+    background: rgba(244, 67, 54, 0.1) !important;
+    border: 1px solid #F44336 !important;
+}
