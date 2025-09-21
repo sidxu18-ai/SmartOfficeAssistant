@@ -29,7 +29,7 @@ An intelligent email generation tool powered by Groq's LLaMA AI model. Create pr
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/SmartOfficeAssistant.git
+   git clone https://github.com/sidxu18-ai/SmartOfficeAssistant.git
    cd SmartOfficeAssistant
    ```
 
@@ -121,7 +121,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 📞 Support
 
-If you have any questions or issues, please open an issue on GitHub or contact [your-email@example.com].
+If you have any questions or issues, please open an issue on [GitHub](https://github.com/sidxu18-ai/SmartOfficeAssistant/issues).
 
 ---
 
